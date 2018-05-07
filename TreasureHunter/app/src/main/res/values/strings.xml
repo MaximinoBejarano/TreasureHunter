@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Treasure Hunter</string>
+
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="lblLogin">Login</string>
+    <string name="hinUsuario">Usuario</string>
+    <string name="hinContraseña">Contraseña</string>
+    <string name="tit_login">Búsqueda del Tesoro</string>
+
+    <string name="tit_registrar">Nuevo Usuario</string>
+    <string name="masc">Maculino</string>
+    <string name="fem">Femenino</string>
+    <string name="gen">Género</string>
+    <string name="nom">Nombre</string>
+    <string name="ap1">Primer Apellido</string>
+    <string name="ap2">Segundo Apellido</string>
+    <string name="email">Email</string>
+    <string name="dir">País</string>
+    <string name="ciu">Ciudad</string>
+    <string name="inf">Otra Información...</string>
+    <string name="car">Cargar...</string>
+    <string name="fot">Foto de Perfil</string>
+    <string name="per_info">Información Personal</string>
+    <string name="user_info">Información de Usuario</string>
+    <string name="nic">Nickname</string>
+    <string name="title_activity_mapa_">Map</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="title_activity_mapa_dis">Map</string>
+</resources>

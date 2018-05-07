@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Estilos padres -->
+    <style name="Item_AjustadoPadre">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Item_AjustadoAltura">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Item_AjustadoAnchura">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Item_AjustadoContenido">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Estilos hijos -->
+
+    <style name="MainLinear" parent="Item_AjustadoPadre">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLogin" parent="Item_AjustadoAltura">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/linerlayout_circular</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_margin">@dimen/margen</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Txv_Login" parent="Item_AjustadoAnchura">
+        <item name="android:text"> @string/lblLogin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.SearchResult.Title</item>
+        <item name="android:textSize">@dimen/texto_grande</item>
+    </style>
+</resources>

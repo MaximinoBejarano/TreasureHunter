@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="MENU"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:rowCount="4">
+
+        <Button
+            android:id="@+id/btnJugar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/boton_menu"
+            android:drawableTop="@drawable/ic_running"
+            android:padding="5dp"
+            android:text="Jugar" />
+
+        <Button
+            android:id="@+id/btnDisenar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/boton_menu"
+            android:drawableTop="@drawable/ic_desk"
+            android:padding="5dp"
+            android:text="Diseñar" />
+
+        <Button
+            android:id="@+id/btnLogros"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/boton_menu"
+            android:drawableTop="@drawable/ic_award"
+            android:padding="5dp"
+            android:text="Logros" />
+
+        <Button
+            android:id="@+id/btnPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/boton_menu"
+            android:drawableTop="@drawable/ic_users"
+            android:padding="5dp"
+            android:text="Perfil" />
+
+        <Button
+            android:id="@+id/btnAjustes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/boton_menu"
+            android:drawableTop="@drawable/ic_gear"
+            android:padding="5dp"
+            android:text="Ajustes" />
+
+        <Button
+            android:id="@+id/btnAcerca"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/boton_menu"
+            android:drawableTop="@drawable/ic_information"
+            android:padding="5dp"
+            android:text="Acerca" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/boton_menu"
+            android:drawableTop="@drawable/ic_exit"
+            android:padding="5dp"
+            android:text="Salir"
+            app:layout_column="1" />
+    </android.support.v7.widget.GridLayout>
+
+</android.support.constraint.ConstraintLayout>

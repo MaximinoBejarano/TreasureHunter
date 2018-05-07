@@ -1,0 +1,51 @@
+{
+  "busqueda": [{
+      "id":"1",
+      "titulo":"Búsqueda Ninja",
+      "nivel":"100",
+      "descripcion":"solo para ninjas experimentados",
+      "contraseña":"123",
+      "longitud":"-83.686780457275",
+      "latitud":"9.377401507071818",
+      "terminada":"false",
+      "puntos":[-83.69066297520465,9.37988633840585,-83.68985294808215,9.381378874546236,-83.6887103270418,9.383548862440275]
+    }, {
+      "id":"2",
+      "titulo":"Búsqueda Rápida",
+      "nivel":"10",
+      "descripcion":"encuentra un tesoro muy grande",
+      "contraseña":"",
+      "longitud":"-83.686780457275",
+      "latitud":"9.377401507071818",
+      "terminada":"false",
+    "puntos":[-83.69066297520465,9.37988633840585,-83.68985294808215,9.381378874546236,-83.6887103270418,9.383548862440275]
+    }, {
+      "id":"3",
+      "titulo":"Búsqueda Legendaria",
+      "nivel":"500",
+      "descripcion":"deberas tener mucho tiempo para completarla",
+      "contraseña":"123",
+      "longitud":"-83.69134021260032",
+      "latitud":"9.378925810149948",
+      "terminada":"false"
+    }, {
+      "id":"4",
+      "titulo":"Búsqueda Acuática",
+      "nivel":"100",
+      "descripcion":"te vas a mojar",
+      "contraseña":"",
+      "longitud":"-83.69134021260032",
+      "latitud":"9.378925810149948",
+      "terminada":"false"
+    }, {
+      "id":"5",
+      "titulo":"Búsqueda Feroz",
+      "nivel":"5000",
+      "descripcion":"cuidado con los dinosaurios",
+      "contraseña":"123",
+      "longitud":"-83.686780457275",
+      "latitud":"9.377401507071818",
+      "terminada":"false"
+    }
+  ]
+}
