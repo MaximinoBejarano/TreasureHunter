@@ -7,8 +7,8 @@
     tools:context=".AjustesActivity">
 
     <ScrollView
-        android:layout_width="344dp"
-        android:layout_height="495dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,10 +31,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/Text_Datos"
-                    android:padding="10dp"
                     android:drawableLeft="@drawable/ic_datos_movile_24dp"
-                    android:textSize="@dimen/texto_mediano"/>
+                    android:padding="10dp"
+                    android:text="@string/Text_Datos"
+                    android:textSize="@dimen/texto_mediano" />
 
                 <Switch
                     android:id="@+id/swit_Datos"
@@ -49,8 +49,7 @@
                 android:layout_height="2dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:background="@color/ColorNegro"
-                />
+                android:background="@color/ColorNegro" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,9 +64,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:drawableLeft="@drawable/ic_screen_rotation"
+                    android:padding="10dp"
                     android:text="@string/Text_Rotacion"
-                    android:textSize="@dimen/texto_mediano"
-                    android:padding="10dp"/>
+                    android:textSize="@dimen/texto_mediano" />
 
                 <Switch
                     android:id="@+id/swit_Rotacion"
@@ -96,9 +95,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:drawableLeft="@drawable/ic_location_24dp"
+                    android:padding="10dp"
                     android:text="@string/Text_ubicacion"
-                    android:textSize="@dimen/texto_mediano"
-                    android:padding="10dp"/>
+                    android:textSize="@dimen/texto_mediano" />
 
                 <Switch
                     android:id="@+id/swit_ubicacion"
@@ -106,6 +105,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
             </LinearLayout>
+
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="2dp"

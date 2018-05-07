@@ -50,7 +50,7 @@
         <activity android:name=".ImagenActivity" />
         <activity android:name=".RompecabezasActivity" />
         <activity android:name=".AcercaDeActivity" />
-        <activity android:name=".AjustesActivity"></activity>
+        <activity android:name=".AjustesActivity" />
     </application>
 
 </manifest>
