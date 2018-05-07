@@ -43,19 +43,41 @@
                     android:textSize="18sp" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/imvPostal"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
                     app:srcCompat="@drawable/ic_user_registrar"
                     tools:ignore="VectorDrawableCompat" />
 
-                <Button
-                    android:id="@+id/button2"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
                     android:layout_gravity="center"
-                    android:text="@string/car" />
+                    android:background="@drawable/linerlayout_circular"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/btnCargarP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:onClick="btnimage_click_galeria"
+                        android:text="@string/car" />
+
+                    <Button
+                        android:id="@+id/btnCamaraP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:onClick="btnimage_click_camara"
+                        android:text="Camara" />
+
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout

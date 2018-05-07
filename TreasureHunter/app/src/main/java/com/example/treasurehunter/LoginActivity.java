@@ -23,4 +23,5 @@ public class LoginActivity extends AppCompatActivity {
         Intent Registrar = new Intent(getApplicationContext(), RegistrarActivity.class);
         startActivity(Registrar);
     }
+
 }
