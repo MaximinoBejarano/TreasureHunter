@@ -50,7 +50,8 @@ public class MenuActivity extends AppCompatActivity {
         });
         btn_ajustes.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
+                Intent Ajustes = new Intent(getApplicationContext(), AjustesActivity.class);
+                startActivity(Ajustes);
             }
         });
         btn_acerca.setOnClickListener(new View.OnClickListener() {

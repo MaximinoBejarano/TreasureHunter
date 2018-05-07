@@ -49,7 +49,8 @@
         <activity android:name=".BusquedaActivity" />
         <activity android:name=".ImagenActivity" />
         <activity android:name=".RompecabezasActivity" />
-        <activity android:name=".AcercaDeActivity"></activity>
+        <activity android:name=".AcercaDeActivity" />
+        <activity android:name=".AjustesActivity"></activity>
     </application>
 
 </manifest>
