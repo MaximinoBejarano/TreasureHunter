@@ -35,5 +35,11 @@
     <string name="TextDif_Dificil">Dificil</string>
     <string name="Btn_cargar">Cargar</string>
 
+    <!--Activity AcercaDe-->
+    <string name="Text_Universidad">UNIVERSIDAD NACIONAL DE COSTA RICA</string>
+    <string name="Text_Autores">Autores</string>
+    <string name="Text_AUT1">William Montoya Arguedas</string>
+    <string name="Text_AUT2">Maximino Bejarano Mora</string>
+    <string name="Text_AUT3">Johan Barboza Vega</string>
 
 </resources>

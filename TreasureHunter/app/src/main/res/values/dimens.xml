@@ -6,7 +6,7 @@
 
 
     <!-- Dimensiones de textos -->
-    <dimen name="texto_pequeño">12sp</dimen>
+    <dimen name="texto_pequeño">16sp</dimen>
     <dimen name="texto_mediano">20sp</dimen>
     <dimen name="texto_grande">36sp</dimen>
 </resources>

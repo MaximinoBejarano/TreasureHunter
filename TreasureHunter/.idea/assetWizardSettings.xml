@@ -28,13 +28,28 @@
                             <entry key="launcherLegacy">
                               <value>
                                 <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="paddingPercent" value="10" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="cropped" value="true" />
-                                      <entry key="iconShape" value="VRECT" />
-                                      <entry key="imageAsset" value="C:\Users\Maximino\Pictures\Saved Pictures\paisaje.jpg" />
-                                      <entry key="outputName" value="ic_Paisaje" />
+                                      <entry key="iconShape" value="HRECT" />
+                                      <entry key="imageAsset" value="C:\Users\Maximino\Pictures\Saved Pictures\UNA.jpg" />
+                                      <entry key="outputName" value="ic_una" />
                                     </map>
                                   </option>
                                 </PersistentState>

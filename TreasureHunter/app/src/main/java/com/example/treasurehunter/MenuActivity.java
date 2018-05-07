@@ -55,7 +55,8 @@ public class MenuActivity extends AppCompatActivity {
         });
         btn_acerca.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
+                Intent AcercaDe = new Intent(getApplicationContext(), AcercaDeActivity.class);
+                startActivity(AcercaDe);
             }
         });
         btn_salir.setOnClickListener(new View.OnClickListener() {
