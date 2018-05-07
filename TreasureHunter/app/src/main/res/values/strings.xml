@@ -27,4 +27,13 @@
     <string name="title_activity_mapa_">Map</string>
     <string name="title_activity_mapa">Map</string>
     <string name="title_activity_mapa_dis">Map</string>
+
+    <!--Activity Imagen-->
+    <string name="Text_Dificulta">Tipo de dificultad</string>
+    <string name="TextDif_Facil">Facil</string>
+    <string name="TextDif_Intermedio">Intermedio</string>
+    <string name="TextDif_Dificil">Dificil</string>
+    <string name="Btn_cargar">Cargar</string>
+
+
 </resources>

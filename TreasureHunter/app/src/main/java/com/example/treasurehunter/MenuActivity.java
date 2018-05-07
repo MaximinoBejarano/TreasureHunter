@@ -38,7 +38,8 @@ public class MenuActivity extends AppCompatActivity {
         });
         btn_logros.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
+                Intent Imagen = new Intent(getApplicationContext(),ImagenActivity.class);
+                startActivity(Imagen);
             }
         });
         btn_perfil.setOnClickListener(new View.OnClickListener() {
