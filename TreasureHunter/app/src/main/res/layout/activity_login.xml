@@ -6,7 +6,7 @@
 
     android:scrollbarAlwaysDrawVerticalTrack="true"
     android:verticalScrollbarPosition="defaultPosition"
-    tools:context=".LoginActivity"
+    tools:context=".Controller.LoginActivity"
     android:background="@drawable/ic_login_background"
     tools:ignore="VectorDrawableCompat">
     <ScrollView
@@ -41,11 +41,11 @@
                     />
 
                 <EditText
-                    android:id="@+id/editText2"
+                    android:id="@+id/txtUsuarioLogin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="22dp"
-                    android:drawableLeft="@drawable/ic_boss"
+                    android:drawableStart="@drawable/ic_boss"
                     android:ems="10"
                     android:hint="Usuario"
                     android:inputType="textPersonName"
@@ -56,11 +56,11 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/txtContrasenaLogin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:drawableLeft="@drawable/ic_lock"
+                    android:drawableStart="@drawable/ic_lock"
                     android:ems="10"
                     android:hint="Contraseña"
                     android:inputType="textPassword"
@@ -68,7 +68,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.503"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/editText2" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtUsuarioLogin" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/btnRegistrar"
+                        android:id="@+id/btnRegistrarLogin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -85,15 +85,14 @@
                         android:layout_marginTop="8dp"
                         android:layout_weight="1"
                         android:background="@drawable/boton_registrar"
-                        android:onClick="RegistrarCilck"
                         android:text="@string/btnRegistrar"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/editText" />
+                        app:layout_constraintTop_toBottomOf="@+id/txtContrasenaLogin" />
 
                     <Button
-                        android:id="@+id/btnEntrar"
+                        android:id="@+id/btnEntrarLogin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -102,12 +101,11 @@
                         android:layout_marginTop="8dp"
                         android:layout_weight="1"
                         android:background="@drawable/boton_entrar"
-                        android:onClick="EntrarClick"
                         android:text="Entrar"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/editText" />
+                        app:layout_constraintTop_toBottomOf="@+id/txtContrasenaLogin" />
 
                 </LinearLayout>
 

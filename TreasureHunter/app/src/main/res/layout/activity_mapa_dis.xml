@@ -6,62 +6,80 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapaDisActivity">
+    tools:context=".Controller.MapaDisActivity">
 
     <Button
         android:id="@+id/btnNuevo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left|bottom"
-        android:layout_marginBottom="2dp"
-        android:padding="10dp"
-        android:paddingLeft="10dp"
-        android:text="Nuevo Punto" />
-
-    <Button
-        android:id="@+id/btnFijar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right|bottom"
-        android:layout_marginBottom="2dp"
-        android:padding="10dp"
-        android:paddingRight="10dp"
-        android:text="Fijar Punto" />
-
-    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="top"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/boton_entrar"
+        android:padding="10dp"
+        android:text="Nuevo Punto" />
+
+
+    <LinearLayout
+        android:id="@+id/lnlBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
         android:background="@drawable/linerlayout_circular"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:text="Datos de la Búsqueda"
+            android:textSize="@dimen/texto_mediano" />
 
         <EditText
             android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:ems="10"
-            android:hint="Titulo de la Búsqueda"
+            android:hint="Título de la Búsqueda"
             android:inputType="textPersonName"
             android:textSize="14sp" />
+
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:ems="10"
             android:hint="Contraseña"
             android:inputType="textPassword"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnEmpezar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/boton_entrar"
+            android:text="Empezar" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/lnlOpciones"
+        android:id="@+id/lnlTipoAcertijo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="10dp"
         android:background="@drawable/linerlayout_circular"
         android:orientation="vertical"
-        android:visibility="invisible">
+        android:padding="10dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -69,42 +87,53 @@
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:padding="10dp"
-            android:text="Seleccione el tipo de Acertijo" />
+            android:text="Seleccione el tipo de Acertijo"
+            android:textSize="@dimen/texto_mediano" />
 
-        <LinearLayout
+
+        <Button
+            android:id="@+id/btnPregunta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:orientation="horizontal">
+            android:layout_margin="10dp"
+            android:textSize="@dimen/texto_mediano"
+            android:background="@drawable/boton_registrar"
+            android:padding="10dp"
+            android:text="Pregunta" />
 
+        <Button
+            android:id="@+id/btnRompe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="@dimen/texto_mediano"
+            android:background="@drawable/boton_registrar"
+            android:padding="10dp"
+            android:text="Rompe Cabeza" />
 
-            <Button
-                android:id="@+id/btnPregunta"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="2dp"
-                android:padding="10dp"
-                android:text="Pregunta" />
+        <Button
+            android:id="@+id/btnCripto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="@dimen/texto_mediano"
+            android:background="@drawable/boton_registrar"
+            android:padding="10dp"
+            android:text="Criptografico" />
 
-            <Button
-                android:id="@+id/btnRompe"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="2dp"
-                android:padding="10dp"
-                android:text="Rompe Cabeza" />
+        <Button
+            android:id="@+id/btnPista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="@dimen/texto_mediano"
+            android:background="@drawable/boton_registrar"
+            android:padding="10dp"
+            android:text="Pista" />
 
-            <Button
-                android:id="@+id/btnCripto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="2dp"
-                android:padding="10dp"
-                android:text="Criptografico" />
-
-        </LinearLayout>
     </LinearLayout>
 </fragment>

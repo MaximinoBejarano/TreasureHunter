@@ -15,7 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Controller.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,24 +33,28 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".RegistrarActivity" />
+        <activity android:name=".Controller.MenuActivity" />
+        <activity android:name=".Controller.RegistrarActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapaActivity"
+            android:name=".Controller.MapaActivity"
             android:label="@string/title_activity_mapa" />
         <activity
-            android:name=".MapaDisActivity"
+            android:name=".Controller.MapaDisActivity"
             android:label="@string/title_activity_mapa_dis" />
-        <activity android:name=".BusquedaActivity" />
-        <activity android:name=".ImagenActivity" />
-        <activity android:name=".RompecabezasActivity" />
-        <activity android:name=".AcercaDeActivity" />
-        <activity android:name=".AjustesActivity" />
+        <activity android:name=".Controller.BusquedaActivity" />
+        <activity android:name=".Controller.ImagenActivity" />
+        <activity android:name=".Controller.RompecabezasActivity" />
+        <activity android:name=".Controller.PreguntaActivity" />
+        <activity android:name=".Controller.CriptoActivity" />
+        <activity android:name=".Controller.PistaActivity" />
+        <activity android:name=".Controller.LogrosActivity"></activity>
+        <activity android:name=".Controller.AcercaDeActivity"></activity>
+        <activity android:name=".Controller.AjustesActivity"></activity>
     </application>
 
 </manifest>

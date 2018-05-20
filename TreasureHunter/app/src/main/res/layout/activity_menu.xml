@@ -5,7 +5,7 @@
     android:background="@drawable/ic_login_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".Controller.MenuActivity">
 
     <TextView
         android:id="@+id/textView2"

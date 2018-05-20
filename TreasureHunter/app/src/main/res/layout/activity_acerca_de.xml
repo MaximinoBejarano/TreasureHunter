@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/ic_login_background"
-    tools:context=".AcercaDeActivity">
+    tools:context=".Controller.AcercaDeActivity">
 
     <ScrollView
         android:layout_width="match_parent"

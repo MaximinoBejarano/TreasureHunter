@@ -6,7 +6,9 @@
     <color name="colorBlanco">#ffffff</color>
     <color name="btnRegistrar">#FFC34C</color>
     <color name="btnEntrar">#00D3E1</color>
-    <color name="ColorNegro">#000000</color>
+    <color name="btnEliminar">#DC2B2B</color>
+    <color name="ColorNegro">#ff000000</color>
+
 
 
 </resources>

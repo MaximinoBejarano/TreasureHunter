@@ -34,6 +34,7 @@
     <string name="TextDif_Intermedio">Intermedio</string>
     <string name="TextDif_Dificil">Difícil</string>
     <string name="Btn_cargar">Cargar</string>
+    <string name="title_activity_pregunta">Asignación de Preguntas</string>
 
     <!--Activity AcercaDe-->
     <string name="Text_Universidad">UNIVERSIDAD NACIONAL DE COSTA RICA</string>

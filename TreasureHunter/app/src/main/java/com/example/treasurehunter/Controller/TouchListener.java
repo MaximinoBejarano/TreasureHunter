@@ -6,7 +6,6 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.example.treasurehunter.Model.Pieza;
-import com.example.treasurehunter.RompecabezasActivity;
 
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
